@@ -6,3 +6,8 @@ Password Generator
 
 
 This page will allow the user to generate a new randomized password with the click of a button.
+
+https://kingcaliente.github.io/password-generator/
+
+https://github.com/kingcaliente/password-generator
+
