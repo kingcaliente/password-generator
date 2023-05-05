@@ -1,17 +1,24 @@
-var Gorilla = {
+//created an object with the 
+
+var random = {
   lower: getRandomLower,
   upper: getRandomUpper,
   number: getRandomNumber,
   symbol: getRandomSymbol,
-} ;
+}
+
 
 var generateBtn = document.querySelector("generate");
+
+
 var generateElement = document.getElementById('result');
 
 
 
-function generate() {
-  prompt ('Welcome to The Password Generator, How many characters in your Password?')  
+function generate(){
+  prompt ('Welcome to The Password Generator, How many characters in your Password?');
+  return random
+    
 }
 
 
@@ -61,6 +68,18 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
+
+
 //generate a password function
 
 
+function random(lower,upper,number,symbol) {
+  return {
+      lower: lower,
+      upper: upper,
+      number: number,
+      symbol: symbol,
+  };
+}
+
+console.log(random)
